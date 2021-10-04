@@ -1,0 +1,55 @@
+/***********************   PDF     **************************/
+
+1. Dawn of Programming Contest
+	read-page: 26
+	code-page: 
+	probleamSolve: 25
+
+
+	Topic: 3: page: (38)
+	Topic: 4: page: (57-)   code: (57-58)   with Marge sort 
+
+
+/-------------------------XXXXXXXXXX--------------------/
+
+/*********************  Java Script Jonas  ********************/
+
+1. Path : F:\uTorrent\Udemy:
+
+	Comp: Folder: 10 -> 1
+
+	Comp: Folder: 9 -> 12       x 9, 14, 19, 23
+	sGitHub: jonasschmedtmann/complete-javascript-course
+/-------------------------XXXXXXXXXX--------------------/
+
+/***********  Jonas Advanced CSS  ************/
+1. Path: 
+	Comp: Folder: 3->
+/-----------------XXXXXXXXXX----------------/
+
+/****************** Jhonkar Mahbub **********************/
+
+		Folder: 16 -> 
+/-------------------------XXXXXXXXXX--------------------/
+
+/***********  HTML-CSS With Jonas  **********/
+
+1. Path : E:\ 
+	Comp : Foleder: 10->
+//prettier - code formatter
+//image preview
+//color highlight
+//auto rename tag
+Video -> 18 -> 3:17 s
+
+/-------------------------XXXXXXXXXX--------------------/
+/*********************  BLOCK CHAIN    ***********************/
+
+1. Path : F:\BlockChainTBDul\
+	Comp: Folder: 4-> 10
+
+/-------------------------XXXXXXXXXX--------------------/
+
+
+/*******************************************************/
+/-------------------------XXXXXXXXXX--------------------/

@@ -1,0 +1,557 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+
+align-items: center;
+align-items: flex-start;
+align-self: end;
+align-self: stretch;
+align-self: flex-start;
+
+animation-name: moveInLeft;
+animation-duration: 1s;
+animation-timing-function: ease-out;
+animation: moveInRight 1s ease-out;
+animation-fill-mode: backwards;
+
+
+/***** NOT  *****/
+animation-delay: 3s;
+animation-iteration-count: 3;
+/****************/
+
+
+background-color: #333333;
+background: linear-gradient(to top left, #28b487, #7dd56f);
+background-image: url('img_girl.jpg');
+background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+background-image: linear-gradient(to right bottom,rgba(235, 151, 78, 0.35),rgba(230, 125, 34, 0.35)),url("../img/eating.jpg");
+background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+background-image: linear-gradient(to right, #7ed56f, #28b485);
+background-image: linear-gradient(105deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.9) 50%,
+      transparent 50% ), url(../images/nat-10.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background: none;
+backdrop-filter: blur(10px);
+backdrop-filter: blur(3px);
+border: 1px solid black;
+border-spacing: 5px;
+border:none;
+background: none;
+border-radius: 9px;
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+border-top: 1px solid #eee;
+border-bottom: 1px solid currentColor;
+border-bottom: 1px solid transparent;
+box-sizing: border-box;
+box-sizing: inherit;
+border-collapse: collapse;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+backface-visibility: hidden;
+background-blend-mode: screen;
+box-decoration-break: clone;
+
+
+
+color: white;
+color: transparent;
+column-gap: 6.4rem;
+cursor: pointer;
+clear: both;
+clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); /* (x y, x y, x y)*/
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+clip-path: circle(50% at 50% 50%);
+
+
+display: block;
+display: inline-block;
+display: flex;
+display: grid;
+
+
+font-size: 120%;
+font-family: "Rubik", sans-serif;
+font-family: inherit;
+font-weight: 500;
+filter: brightness(0);
+filter: blur();
+flex: 50%;
+flex: 1;
+flex-direction: column;
+flex-shrink: 0;
+font-style: italic;
+float: left;
+float: right;
+filter: brightness(0);
+filter: blur(3px) brightness(80%);
+
+
+gap: 3.2rem;
+grid-template-columns: 1fr 1fr;
+grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+grid-template-columns: auto 1fr auto;
+grid-template-rows: 80px 1fr;
+grid-row: 1 / -1;
+grid-row: 1 / 2;
+grid-row: 1;
+grid-column: 2 / -1;
+grid-column: 2 / 3;
+grid-column: span 3;
+grid-column: span 2;
+
+
+height: 9.6rem;
+height: 100vh;
+
+justify-content: space-between;
+justify-content: space-around;
+justify-self: end;
+justify-self: center;
+justify-items: end;
+justify-content: flex-start;
+
+list-style-type: none;
+list-style: none;
+line-height: 1.6;
+letter-spacing: 0.75px;
+
+
+margin: 0;
+margin: 0 auto;
+max-width: 130rem;
+margin-top: 8rem;
+margin-bottom: 4.8rem;
+margin-right: -1.6rem;
+margin-left: -1.6rem;
+
+overflow: hidden;
+overflow: scroll;
+overflow-x: hidden;
+opacity: 50%;
+outline: none;
+outline-offset: 2rem;
+object-fit: cover;
+
+padding: 16px;
+padding-top: 45%;
+padding-right: 45%;
+padding-left: 45%;
+padding-bottom: 45%;
+position: relative;
+position: absolute;
+position: fixed;
+perspective: 150rem;
+
+row-gap: 9.6rem;
+
+stroke: #087f5b;
+scroll-behavior: smooth;
+shape-outside: circle(50% at 50% 50%);
+
+text-align: left;
+text-align: center;
+text-align: justify;
+text-decoration: none;
+text-transform: uppercase; 
+transform: translate(-50%, -50%);
+transform: scale(1.1);
+transition: all 0.4s;
+transition: all 2s ease-out;
+transition: all 1s ease-in;
+transition: opacity 0.2s;
+transform: translateY(-1.2rem);
+transform: translateX(100%);
+transform: skewY(-7deg);
+transform: translateX(-3rem) skewX(12deg);
+transform: rotate(45deg);
+transition: width 2s ease-in, height 4s;
+transform: skewY(2deg) skewX(15deg) scale(1.1);
+text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+visibility: hidden;
+
+width: 100%;
+word-spacing: 2px;
+-webkit-background-clip: text;
+
+z-index: -2;
+
+
+-webkit-transition: width 2s ease-in, height 4s;
+-webkit-shape-outside: circle(50% at 50% 50%);
+-webkit-clip-path: circle(50% at 50% 50%);
+-moz-transition: width 2s ease-in, height 4s;
+-o-transition: width 2s ease-in, heigth 4s;
+
+
+/*  Hide  */
+display: none;
+opacity: 0;
+pointer-events: none;
+visibility: hidden;
+
+/* Visibile  */
+pointer-events: auto;
+visibility: visible;
+
+
+@media (max-width: 84em) {
+}
+
+
+@keyframes moveInLeft {
+
+	0% {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+
+	80% {
+		transform: translateX(10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0px);
+	}
+
+}
+
+@keyframes moveInRight {
+
+	0% {
+		opacity: 0;
+		transform: translateX(100px);
+	}
+
+	80% {
+		transform: translateX(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0px);
+	}
+
+}
+
+
+.btn:link,
+.btn:visited{
+}
+
+.btn:hover,
+.btn:active{
+}
+
+tr:nth-child(odd) {
+}
+
+tr:nth-child(even) {
+}
+
+article p:first-child {
+}
+
+.cta input::placeholder{}
+
+article p:last-child {
+}
+.step-img-box::before {
+    width: 60%;
+
+    padding-bottom: 60%;
+
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+
+.step-img-box::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+*:focus {
+	outline: none;
+	//outline: 4px doted red;
+	//outline: 8px;
+	box-shadow: 0 0 0 0.8rem red;
+}
+
+###################################
+-----------STICKY-------------
+position: fixed;
+top: 0;
+bottom: 0;
+width: 100%;
+height: 8rem;
+padding-top: 0;
+padding-bottom: 0;
+background-color: white;
+z-index: 1000;
+box-shadow: 0 1.2rem 3.2rem rgba();
+------------------------------
+display: flex;
+justify-content: space-between;
+align-items: center;
+------------------------------
+display: flex;
+flex-direction: column;
+gap: 2rem;
+------------------------------
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 10px;
+------------------------------
+display: flex;
+flex-direction: column;
+------------------------------
+display: flex;
+justify-content: space-around;
+------------------------------
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 9.6rem;
+align-items: center;
+------------------------------
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 4.8rem;
+column-gap: 8rem;
+------------------------------
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 1.6rem;
+padding: 1.6rem;
+------------------------------
+display: grid;
+grid-template-columns: auto 1fr auto;
+column-gap: 24px;
+row-gap: 32px;
+align-items: center;
+------------------------------
+.grid-3-cols {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+column-gap: 80px;
+}
+------------------------------
+position: absolute;
+top: 50%;
+left: 50%;
+------------------------------
+.clearfix {
+	content: "";
+	clear: both;
+}
+------------------------------
+display: inline-block;
+background-image: linear-gradient(to right, #7ed56f, #28b485);
+-webkit-background-clip: text;
+color: transparent;
+------------------------------
+perspective: 150rem;
+-moz-persepctive: 150rem;
+------------------------------
+clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+------------------------------
+box-decoration-break: clone;
+-webkit-box-direction-break: clone;
+------------------------------
+------------------------------
+------------------------------
+------------------------------
+------------------------------
+------------------------------
+########################################
+
+#############  SITE ##############
+unsplash.com    #img choose
+pexels.com      #img choose
+unifaces.co     #face img
+coolors.co      #check color good or bad
+yeun.github.io/open-color/    #color chooser
+heroicons.com         #icon choose
+ionic.io/ionicons     #icon choose
+validator.w3.org/nu/  #html Checker
+diffchecker.com
+land-book.com         #website
+onepagelove.com       #website
+awwwards.com          #website
+screenlane.com        #website
+squoosh.app/          #img size decrase
+
+easings.net	#ease in
+cubic-bezier.com/#.17,.67,.83,.67	#ease in
+
+coverr.co	#Video
+
+condingheroes.io/resources/	#html icon
+linea.io	#font icon
+
+canva.com	#graphis editing
+
+minifier.org	#js to css convert
+
+netlify.com           #live server
+hover.com             #live server
+
+diagrams.net          #drawing
+bennettfeely.com/clippy/
+
+
+open color
+
+####################################
+github.com/jonasschmedtmann/
+github.com/rwaldron/id
+############### VS CODE  ############
+visual studio code tips and tricks
+ctrl + shift + p
+
+prettier - code ->search
+one monakai theme
+image preview
+color highlight
+auto rename tag
+code spell checker
+JavaScript (ES6) code snippets
+
+
+
+default format
+formations
+format on save
+auto save
+auto close tags
+####################################
+
+##############   TBD   ##############
+https://www.frontendmentor.io/challenges
+https://www.acefrontend.com/challenges/
+https://codepen.io/challenges/
+https://100dayscss.com/
+https://coderbyte.com/
+https://cssbattle.dev/
+https://frontloops.io/
+https://codier.io/
+####################################
+
+############ JavaScript ############
+node -v
+npm install live-server -g
+live-server
+
+npm install -g nodemon
+
+npm init
+npm install node-sass --save-dev
+npm install jquery
+npm install jquery --save
+npm uninstall jquery --save
+
+
+
+
+
+codewars.com
+####################################
+
+############ NPM ############
+/*
+mkdir my-express-server
+cd my-express-server
+touch server.js
+npm init
+description: My first Express server
+author: Afsar Hossain
+npm install express
+npm i ejs
+
+//jshint esversion:6
+const express = require("express");
+const app = express();
+
+app.listen(3000, function() {
+console.log("Server started on port 3000");
+});
+
+node server.js
+ctrl + c
+node server.js
+
+npm install -g nodemon
+nodemon fileName.js
+npm install body-parser
+
+localhost:3000
+
+*/
+
+npm init
+npm install express
+npm i express
+
+//jshint esversion:6
+const express = require("express");
+const app = express();
+
+npm install -g nodemon
+
+nodemon fileName.js
+
+npm install body-parser
+
+####################################
+angelabauer/
+############ git ############
+ls -a // all hidden file
+mkdir folderName
+touch fileName
+cd folderName
+open fileName
+vim fileName
+
+git log
+git diff fileName // difference pevious file and present file
+git checkout fileName // return prvious file all likha
+git rm --cached -r .  // unstage all file
+.gitignore
+git branch branchName  // create new branch
+git branch  // see current branch name
+git checkout branchName  // Switched new branch
+git merge branchName
+q!
+
+
+
+
+
+
+
+
+
+####################################
